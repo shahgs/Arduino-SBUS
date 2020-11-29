@@ -14,7 +14,7 @@ Basic Installation
 ------------------
 ```
 $ cd <arduino-sketchbook>/libraries
-$ git clone https://github.com/zendes/SBUS.git
+$ git clone https://github.com/shahgs/Arduino-SBUS.git
 ```
 
 Then restart your Arduino IDE and take a look at the examples.
