@@ -1,6 +1,11 @@
 #include "SBUS.h"
 #include <Arduino.h>
 
+SBUS::SBUS(HardwareSerial& serial)
+{
+	_serial = &serial;
+}
+
 void SBUS::begin() {
 	SBUS::begin(true);
 }
